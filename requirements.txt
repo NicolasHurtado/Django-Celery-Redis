@@ -1,0 +1,7 @@
+Django>=3.2,<4.0
+djangorestframework
+django_celery_results
+celery
+redis
+pillow
+psycopg2-binary

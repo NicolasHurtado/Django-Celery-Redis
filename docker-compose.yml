@@ -1,0 +1,49 @@
+version: '3.8'
+
+services:
+  django:
+    build: .
+    container_name: django-web
+    volumes:
+      - media-data:/app/media  # Volumen compartido para los archivos de medios
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+    networks:
+      - backend
+
+  celery:
+    build: .
+    command: celery -A image_processor worker -l info
+    volumes:
+      - media-data:/app/media  # Volumen compartido para los archivos de medios
+    depends_on:
+      - redis
+      - db
+    networks:
+      - backend
+
+  redis:
+    image: redis:alpine
+    ports:
+      - "6379:6379"
+    networks:
+      - backend
+
+  db:
+    image: postgres:13
+    environment:
+      POSTGRES_DB: prueba
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin
+    ports:
+      - "5432:5432"
+    networks:
+      - backend
+
+volumes:
+  media-data:  # Volumen gestionado por Docker para los archivos de medios
+
+networks:
+  backend:  # Definir la red backend
