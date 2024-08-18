@@ -7,3 +7,4 @@ pillow
 psycopg2-binary
 pytest
 pytest-django
+drf-yasg
