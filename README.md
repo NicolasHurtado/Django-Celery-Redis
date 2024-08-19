@@ -48,6 +48,9 @@ Upload a new image for processing.
 **Response  Example :**
   ![image](https://github.com/user-attachments/assets/b16259aa-cddf-4bcd-90a3-58928657b647)
 
+  ![image](https://github.com/user-attachments/assets/1dbbf724-009d-4e77-8d2f-b96831a6dd25)
+
+
 
 
 ### 2. **GET Images - /images/**
