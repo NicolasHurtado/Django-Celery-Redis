@@ -67,7 +67,7 @@ Retrieve a specific image by its ID.
 **Response  Example :**
   ![image](https://github.com/user-attachments/assets/d1d9bb24-0d80-4791-a429-a1e9fbe9a7de)
 
-### **Before and after image**
+## Before and after image
 
 **Before:**
   ![image](https://github.com/user-attachments/assets/e5928d35-d6f1-45c4-a5f3-b5ee0d47d2d8)
