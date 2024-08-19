@@ -33,7 +33,7 @@ Make sure you have Docker and Docker Compose installed on your machine:
 
 ### Access the application
 - API Documentation: http://localhost:8000/swagger/
-- ![image](https://github.com/user-attachments/assets/c2407a2e-9440-40cf-ac07-99c6c0033e37)
+  ![image](https://github.com/user-attachments/assets/c2407a2e-9440-40cf-ac07-99c6c0033e37)
 
 
 ## Use Cases using Swagger
@@ -42,11 +42,11 @@ Make sure you have Docker and Docker Compose installed on your machine:
 Upload a new image for processing.
 
 **Request Example :**
-- ![image](https://github.com/user-attachments/assets/3e72385d-aa88-4e07-89d7-b7c033a63ebb)
+  ![image](https://github.com/user-attachments/assets/3e72385d-aa88-4e07-89d7-b7c033a63ebb)
 
 
 **Response  Example :**
-- ![image](https://github.com/user-attachments/assets/b16259aa-cddf-4bcd-90a3-58928657b647)
+  ![image](https://github.com/user-attachments/assets/b16259aa-cddf-4bcd-90a3-58928657b647)
 
 
 
@@ -54,26 +54,26 @@ Upload a new image for processing.
 Retrieve a list of all uploaded images.
 
 **Response  Example :**
-- ![image](https://github.com/user-attachments/assets/9ee0fed2-af53-4f7b-aa56-58fc7a596e33)
+  ![image](https://github.com/user-attachments/assets/9ee0fed2-af53-4f7b-aa56-58fc7a596e33)
 
 
 ### 3. **GET Image Detail - /images/{id}/**
 Retrieve a specific image by its ID.
 
 **Request Example :**
-- ![image](https://github.com/user-attachments/assets/7faf351b-a523-42c3-bc97-38a0372eca36)
+  ![image](https://github.com/user-attachments/assets/7faf351b-a523-42c3-bc97-38a0372eca36)
 
 
 **Response  Example :**
-- ![image](https://github.com/user-attachments/assets/d1d9bb24-0d80-4791-a429-a1e9fbe9a7de)
+  ![image](https://github.com/user-attachments/assets/d1d9bb24-0d80-4791-a429-a1e9fbe9a7de)
 
 ### **Before and after image**
 
 **Before:**
-- ![image](https://github.com/user-attachments/assets/e5928d35-d6f1-45c4-a5f3-b5ee0d47d2d8)
+  ![image](https://github.com/user-attachments/assets/e5928d35-d6f1-45c4-a5f3-b5ee0d47d2d8)
 
 **After:**
-- ![image](https://github.com/user-attachments/assets/b75c699d-fb26-4ae2-a6b0-d0d48358e301)
+  ![image](https://github.com/user-attachments/assets/b75c699d-fb26-4ae2-a6b0-d0d48358e301)
 
 
 ## Running Tests
